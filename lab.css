@@ -1,0 +1,126 @@
+*{
+  margin: 0 ;
+  padding: 0;
+}
+
+
+
+
+body{
+  font-family:'Poppins', sans-serif;
+}
+.logo{
+  width: 90px;
+  height: 90px;
+  padding: 10px;
+}
+.ai{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+.ad{
+  display: flex;
+  padding: 1px;
+  justify-content: center;
+  align-items: center;
+}
+.ad > li{
+  padding: 5px 20px;
+  list-style: none;
+  background-color: black ;
+  margin: 10px;
+  border-radius: 100px;
+  color: white;
+  text-decoration: underline;
+}
+
+.heading{
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+
+}
+
+.imp{
+  background-image: url(images/autumn-landscape-autumn-landscape-with-colorful-forest-colorful-autumn-landscape-autumn-colorful-foliage-lake-with-beautiful-woods-red-yellow-color-autumn-forest-reflected-water_73110-13152.jpeg);
+padding-bottom: 300px;
+
+
+
+}
+
+.isa{
+  padding-top: 200px;
+  padding-left: 200px;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.ser{
+padding-top: 100px;
+  text-align: center;
+
+}
+
+.ser > p{
+  font-size: 50px;
+}
+
+.ser > li{
+  padding-bottom: 400px ;
+  padding-top: 300px;
+  font-size: 10px;
+}
+
+.heading {
+  color: #000;
+  font-size: 20px;
+}
+
+#pricing {
+    background-color: #ededff;
+    padding: 60px;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+}
+
+.price-card {
+    padding: 35px;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 20px;
+    color: #0A1931;
+    background-color: #fff;
+}
+
+.plan {
+    color: rgb(255, 138, 138);
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px;
+}
+
+#contact > button {
+    padding: 15px 30px;
+    margin-top: 10px;
+    background-color: #121316;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+}
